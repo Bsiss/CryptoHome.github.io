@@ -1,3 +1,15 @@
+div.loading img {
+    animation: rotate 2s infinite linear;
+}
+
+div.loading.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+div.loading {
+    
+}
 * {
    
     padding: 0;
